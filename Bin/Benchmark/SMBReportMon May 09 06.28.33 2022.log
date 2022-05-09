@@ -1,0 +1,214 @@
+MarkBench - Bench Report - Mon May 09 06.28.33 2022
+
+MS name            : Blind linear correlation technique - V demo
+MS release date    : June 2000 - Last update: February 2002
+MS contact address : fabienpe@microsoft.com
+MS source location : http://www.cl.cam.ac.uk/~fapp2/watermarking/evaluation/
+MS family type     : 6
+MS max key size    : 32
+MS max msg size    : 0
+
+
+
+
+
+---------------------------------------------------
+Test_PSNR -- Mon May 09 06.28.33 2022
+---------------------------------------------------
+Test_PSNR	0	Images/Set1/lena	Certainty:	128.22	1.#INF dB	
+Test_PSNR	10	Images/Set1/lena	Certainty:	131.221	38.3482 dB	
+Test_PSNR	20	Images/Set1/lena	Certainty:	133.219	33.9484 dB	
+Test_PSNR	30	Images/Set1/lena	Certainty:	136.213	29.9396 dB	
+Test_PSNR	40	Images/Set1/lena	Certainty:	138.206	28.0397 dB	
+Test_PSNR	50	Images/Set1/lena	Certainty:	141.188	25.7683 dB	
+Test_PSNR	60	Images/Set1/lena	Certainty:	143.168	24.5666 dB	
+Test_PSNR	70	Images/Set1/lena	Certainty:	146.121	22.9976 dB	
+Test_PSNR	80	Images/Set1/lena	Certainty:	148.075	22.0954 dB	
+Test_PSNR	90	Images/Set1/lena	Certainty:	150.985	20.9376 dB	
+Test_PSNR	100	Images/Set1/lena	Certainty:	152.911	20.2289 dB	
+
+
+---------------------------------------------------
+Test_EmbedTime -- Mon May 09 06.28.35 2022
+---------------------------------------------------
+Test_EmbedTime	5	Images/Set1/lena	Average embedding time (ms)	45.4	25.5237 dB	
+Test_EmbedTime	5	Images/Set1/lena	Average extraction time (ms)	8.8	25.5237 dB	
+
+
+---------------------------------------------------
+Test_AddNoise -- Mon May 09 06.28.35 2022
+---------------------------------------------------
+Test_AddNoise	0	Images/Set1/lena	Certainty	141.188	1.#INF dB	
+Test_AddNoise	20	Images/Set1/lena	Certainty	74.9408	9.62072 dB	
+Test_AddNoise	40	Images/Set1/lena	Certainty	67.9582	8.22104 dB	
+Test_AddNoise	60	Images/Set1/lena	Certainty	66.8119	7.77544 dB	
+Test_AddNoise	80	Images/Set1/lena	Certainty	66.004	7.56137 dB	
+Test_AddNoise	100	Images/Set1/lena	Certainty	65.5276	7.45195 dB	
+
+
+---------------------------------------------------
+Test_JPEG -- Mon May 09 06.28.36 2022
+---------------------------------------------------
+Test_JPEG	15	Images/Set1/lena	Certainty	141.202	31.7509 dB	
+Test_JPEG	20	Images/Set1/lena	Certainty	141.204	32.8216 dB	
+Test_JPEG	25	Images/Set1/lena	Certainty	141.157	33.5565 dB	
+Test_JPEG	30	Images/Set1/lena	Certainty	141.253	34.107 dB	
+Test_JPEG	35	Images/Set1/lena	Certainty	141.103	34.4789 dB	
+Test_JPEG	40	Images/Set1/lena	Certainty	141.203	34.8369 dB	
+Test_JPEG	50	Images/Set1/lena	Certainty	141.135	35.5031 dB	
+Test_JPEG	60	Images/Set1/lena	Certainty	141.163	36.0967 dB	
+Test_JPEG	70	Images/Set1/lena	Certainty	141.172	37.0373 dB	
+Test_JPEG	80	Images/Set1/lena	Certainty	141.172	38.0637 dB	
+Test_JPEG	90	Images/Set1/lena	Certainty	141.169	40.2635 dB	
+Test_JPEG	100	Images/Set1/lena	Certainty	141.174	50.043 dB	
+
+
+---------------------------------------------------
+Test_MedianCut -- Mon May 09 06.28.37 2022
+---------------------------------------------------
+Test_MedianCut	3	Images/Set1/lena	Certainty	143.034	33.3907 dB	
+Test_MedianCut	5	Images/Set1/lena	Certainty	141.874	30.8352 dB	
+Test_MedianCut	7	Images/Set1/lena	Certainty	141.411	28.684 dB	
+Test_MedianCut	9	Images/Set1/lena	Certainty	141.204	27.3154 dB	
+
+
+---------------------------------------------------
+Test_ConvFilter -- Mon May 09 06.28.47 2022
+---------------------------------------------------
+Test_ConvFilter	1	Images/Set1/lena	Certainty	208.887	11.5344 dB	
+Test_ConvFilter	2	Images/Set1/lena	Certainty	15.8276	-6.92511 dB	
+
+
+---------------------------------------------------
+Test_SelfSimilarities -- Mon May 09 06.28.57 2022
+---------------------------------------------------
+Test_SelfSimilarities	1	Images/Set1/lena	Certainty	140.805	36.3229 dB	
+Test_SelfSimilarities	2	Images/Set1/lena	Certainty	141.031	48.6311 dB	
+Test_SelfSimilarities	3	Images/Set1/lena	Certainty	140.882	32.3927 dB	
+
+
+---------------------------------------------------
+Test_RemoveLines -- Mon May 09 06.29.12 2022
+---------------------------------------------------
+Test_RemoveLines	10	Images/Set1/lena	Certainty	141.209	NA	
+Test_RemoveLines	20	Images/Set1/lena	Certainty	141.196	NA	
+Test_RemoveLines	30	Images/Set1/lena	Certainty	141.223	NA	
+Test_RemoveLines	40	Images/Set1/lena	Certainty	141.186	NA	
+Test_RemoveLines	50	Images/Set1/lena	Certainty	141.179	NA	
+Test_RemoveLines	60	Images/Set1/lena	Certainty	141.218	NA	
+Test_RemoveLines	70	Images/Set1/lena	Certainty	141.297	NA	
+Test_RemoveLines	80	Images/Set1/lena	Certainty	141.241	NA	
+Test_RemoveLines	90	Images/Set1/lena	Certainty	141.261	NA	
+Test_RemoveLines	100	Images/Set1/lena	Certainty	141.284	NA	
+
+
+---------------------------------------------------
+Test_Cropping -- Mon May 09 06.29.12 2022
+---------------------------------------------------
+Test_Cropping	1	Images/Set1/lena	Certainty	110.707	NA	
+Test_Cropping	2	Images/Set1/lena	Certainty	120.38	NA	
+Test_Cropping	5	Images/Set1/lena	Certainty	131.77	NA	
+Test_Cropping	10	Images/Set1/lena	Certainty	155.118	NA	
+Test_Cropping	15	Images/Set1/lena	Certainty	153.741	NA	
+Test_Cropping	20	Images/Set1/lena	Certainty	149.575	NA	
+Test_Cropping	25	Images/Set1/lena	Certainty	148.052	NA	
+Test_Cropping	50	Images/Set1/lena	Certainty	140.881	NA	
+Test_Cropping	75	Images/Set1/lena	Certainty	138.292	NA	
+
+
+---------------------------------------------------
+Test_Rescale -- Mon May 09 06.29.13 2022
+---------------------------------------------------
+Test_Rescale	50	Images/Set1/lena	Certainty	141.307	NA	
+Test_Rescale	75	Images/Set1/lena	Certainty	141.271	NA	
+Test_Rescale	90	Images/Set1/lena	Certainty	141.169	NA	
+Test_Rescale	110	Images/Set1/lena	Certainty	141.192	NA	
+Test_Rescale	150	Images/Set1/lena	Certainty	141.143	NA	
+Test_Rescale	200	Images/Set1/lena	Certainty	141.157	NA	
+
+
+---------------------------------------------------
+Test_Rotation -- Mon May 09 06.29.18 2022
+---------------------------------------------------
+Test_Rotation	-2	Images/Set1/lena	Certainty	132.269	NA	
+Test_Rotation	-1	Images/Set1/lena	Certainty	136.875	NA	
+Test_Rotation	-0.75	Images/Set1/lena	Certainty	137.939	NA	
+Test_Rotation	-0.5	Images/Set1/lena	Certainty	139.016	NA	
+Test_Rotation	-0.25	Images/Set1/lena	Certainty	140.104	NA	
+Test_Rotation	0.25	Images/Set1/lena	Certainty	140.101	NA	
+Test_Rotation	0.5	Images/Set1/lena	Certainty	139.011	NA	
+Test_Rotation	0.75	Images/Set1/lena	Certainty	137.93	NA	
+Test_Rotation	1	Images/Set1/lena	Certainty	136.865	NA	
+Test_Rotation	2	Images/Set1/lena	Certainty	132.266	NA	
+Test_Rotation	5	Images/Set1/lena	Certainty	120.603	NA	
+Test_Rotation	10	Images/Set1/lena	Certainty	105.617	NA	
+Test_Rotation	15	Images/Set1/lena	Certainty	94.4588	NA	
+Test_Rotation	30	Images/Set1/lena	Certainty	75.7575	NA	
+Test_Rotation	45	Images/Set1/lena	Certainty	70.8248	NA	
+Test_Rotation	90	Images/Set1/lena	Certainty	140.885	11.0464 dB	
+
+
+---------------------------------------------------
+Test_RotationCrop -- Mon May 09 06.29.27 2022
+---------------------------------------------------
+Test_RotationCrop	-2	Images/Set1/lena	Certainty	141.637	NA	
+Test_RotationCrop	-1	Images/Set1/lena	Certainty	141.456	NA	
+Test_RotationCrop	-0.75	Images/Set1/lena	Certainty	141.389	NA	
+Test_RotationCrop	-0.5	Images/Set1/lena	Certainty	141.322	NA	
+Test_RotationCrop	-0.25	Images/Set1/lena	Certainty	141.261	NA	
+Test_RotationCrop	0.25	Images/Set1/lena	Certainty	141.198	NA	
+Test_RotationCrop	0.5	Images/Set1/lena	Certainty	141.197	NA	
+Test_RotationCrop	0.75	Images/Set1/lena	Certainty	141.201	NA	
+Test_RotationCrop	1	Images/Set1/lena	Certainty	141.21	NA	
+Test_RotationCrop	2	Images/Set1/lena	Certainty	141.282	NA	
+
+
+---------------------------------------------------
+Test_RotationScale -- Mon May 09 06.29.29 2022
+---------------------------------------------------
+Test_RotationScale	-2	Images/Set1/lena	Certainty	141.645	16.9816 dB	
+Test_RotationScale	-1	Images/Set1/lena	Certainty	141.472	19.742 dB	
+Test_RotationScale	-0.75	Images/Set1/lena	Certainty	141.402	21.0887 dB	
+Test_RotationScale	-0.5	Images/Set1/lena	Certainty	141.332	23.2335 dB	
+Test_RotationScale	-0.25	Images/Set1/lena	Certainty	141.265	27.4572 dB	
+Test_RotationScale	0.25	Images/Set1/lena	Certainty	141.201	29.1648 dB	
+Test_RotationScale	0.5	Images/Set1/lena	Certainty	141.206	24.7257 dB	
+Test_RotationScale	0.75	Images/Set1/lena	Certainty	141.214	22.4173 dB	
+Test_RotationScale	1	Images/Set1/lena	Certainty	141.225	20.988 dB	
+Test_RotationScale	2	Images/Set1/lena	Certainty	141.307	17.9705 dB	
+
+
+---------------------------------------------------
+Test_Affine -- Mon May 09 06.29.33 2022
+---------------------------------------------------
+Test_Affine	1	Images/Set1/lena	Certainty	139.83	NA	
+Test_Affine	2	Images/Set1/lena	Certainty	134.62	NA	
+Test_Affine	3	Images/Set1/lena	Certainty	139.827	NA	
+Test_Affine	4	Images/Set1/lena	Certainty	134.621	NA	
+Test_Affine	5	Images/Set1/lena	Certainty	138.472	NA	
+Test_Affine	6	Images/Set1/lena	Certainty	138.428	NA	
+Test_Affine	7	Images/Set1/lena	Certainty	138.683	NA	
+Test_Affine	8	Images/Set1/lena	Certainty	138.945	NA	
+
+
+---------------------------------------------------
+Test_SmallRandomDistortions -- Mon May 09 06.29.35 2022
+---------------------------------------------------
+Test_SmallRandomDistortions	0.95	Images/Set1/lena	Certainty	137.059	16.1719 dB	
+Test_SmallRandomDistortions	1	Images/Set1/lena	Certainty	136.932	16.0442 dB	
+Test_SmallRandomDistortions	1.05	Images/Set1/lena	Certainty	136.803	15.825 dB	
+Test_SmallRandomDistortions	1.1	Images/Set1/lena	Certainty	136.681	15.7193 dB	
+
+
+---------------------------------------------------
+Test_LatestSmallRandomDistortions -- Mon May 09 06.29.41 2022
+---------------------------------------------------
+Test_LatestSmallRandomDistortions	0.95	Images/Set1/lena	Certainty	133.804	14.8964 dB	
+Test_LatestSmallRandomDistortions	1	Images/Set1/lena	Certainty	133.513	14.7209 dB	
+Test_LatestSmallRandomDistortions	1.05	Images/Set1/lena	Certainty	133.228	14.4449 dB	
+Test_LatestSmallRandomDistortions	1.1	Images/Set1/lena	Certainty	132.938	14.3825 dB	
+
+
+
+MarkBench - Bench Results  - Mon May 09 06.29.44 2022
+Number of tests which failed:0
